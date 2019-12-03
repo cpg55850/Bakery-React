@@ -1,0 +1,28 @@
+.columnGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  background-position: center;
+  background-repeat: center;
+  background-size: cover;
+}
+
+.columnItem {
+  justify-self: center;
+  align-self: center;
+  overflow: hidden;
+  max-width: 600px;
+  padding: 1rem;
+  color: white;
+}
+
+.columnItem p {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .columnItem p,
+  .columnItem h1 {
+    font-size: 1.3rem;
+  }
+}
