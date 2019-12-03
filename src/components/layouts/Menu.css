@@ -1,0 +1,18 @@
+.menuUl {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+}
+
+.menuUl li {
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .menuUl {
+    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, 370px);
+  }
+}

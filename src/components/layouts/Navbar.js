@@ -1,15 +1,20 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 import "./Navbar.css";
 
 export class Navbar extends Component {
   render() {
+
+    const element = <FontAwesomeIcon icon={faBars} />
+
     return (
       <nav className="navbar">
-        <ul>
+        <ul className="navUl">
           <li>
-            <Link to="/">&copy;</Link>
+            <Link to="/">{element}</Link>
           </li>
           <li>
             <Link to="/">Home</Link>
@@ -22,6 +27,9 @@ export class Navbar extends Component {
           </li>
           <li>
             <Link to="../About">About</Link>
+          </li>
+          <li>
+            <Link to="../Menu">Menu</Link>
           </li>
         </ul>
       </nav>

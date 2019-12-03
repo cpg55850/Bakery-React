@@ -20,6 +20,10 @@
   font-size: 1.5rem;
 }
 
+.columnItem h1 {
+  text-align: center
+}
+
 @media screen and (max-width: 600px) {
   .columnItem p,
   .columnItem h1 {

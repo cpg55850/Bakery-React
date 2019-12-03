@@ -13,11 +13,11 @@ export class Column extends Component {
             : ""
         }}
       >
-        <div className="showcaseItem2" style={{backgroundColor: bg}}>
+        <div className="showcaseItem2" style={{ backgroundColor: bg }}>
           <h1>{title}</h1>
           <p>{desc}</p>
         </div>
-        <div className="showcaseItem2" style={{backgroundColor: bg2}}>
+        <div className="showcaseItem2" style={{ backgroundColor: bg2 }}>
           <h1>{title2}</h1>
           <p>{desc2}</p>
         </div>

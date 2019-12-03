@@ -1,4 +1,4 @@
-nav ul {
+.navUl {
   font-family: "Roboto";
   display: flex;
   list-style-type: none;
@@ -9,24 +9,24 @@ nav ul {
   padding: 0;
 }
 
-nav ul li {
+.navUl li {
   padding: 10px;
   font-size: 0.9rem;
   cursor: pointer;
 }
 
-nav ul li:hover {
+.navUl li:hover {
   background-color: #11528e;
 }
 
-nav a {
+.navUl a {
   text-decoration: none;
   color: white;
   font-size: 1.2rem;
 }
 
 @media screen and (max-width: 600px) {
-  nav ul {
+  .navUl {
     flex-direction: column;
   }
 }

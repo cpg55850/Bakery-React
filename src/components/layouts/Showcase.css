@@ -20,6 +20,10 @@
   font-size: 1.5rem;
 }
 
+.showcaseItem h1 {
+  text-align: center;
+}
+
 @media screen and (max-width: 600px) {
   .showcaseItem p,
   .showcaseItem h1 {
@@ -37,5 +41,6 @@
 @media screen and (min-width: 1200px) {
   .showcaseGrid {
     height: 100vh;
+    font-size: 150%;
   }
 }

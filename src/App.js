@@ -6,6 +6,7 @@ import Home from "./components/layouts/Home";
 import About from "./About";
 import News from "./News";
 import Contact from "./Contact";
+import Menu from "./components/layouts/Menu";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -20,6 +21,7 @@ export class App extends Component {
             <Route exact path="/About" component={About} />
             <Route exact path="/News" component={News} />
             <Route exact path="/Contact" component={Contact} />
+            <Route exact path="/Menu" component={Menu} />
           </Switch>
           <Footer />
         </div>
