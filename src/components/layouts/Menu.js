@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Column from "./Column";
 import uuid from "uuid";
 import glazed_donut from "../../img/glazed_donut.png";
 import choc_sprinkles from "../../img/choc_sprinkles.png";
@@ -67,7 +68,8 @@ export class Menu extends Component {
     const foods = this.state.foods;
 
     return (
-      <nav>
+      <div>
+        <Column title="Menu" desc="With our wide selection, you're sure to find something you like!" bg="#ec407a"/>
         <ul className="menuUl">
           {foods.map(food => (
             <li>
@@ -76,7 +78,7 @@ export class Menu extends Component {
             </li>
           ))}
         </ul>
-      </nav>
+      </div>
     );
   }
 }

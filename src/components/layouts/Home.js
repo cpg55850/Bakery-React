@@ -22,10 +22,7 @@ export class Home extends Component {
       <div>
         <Showcase
           title="Charlie's Bakery"
-          desc="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore
-      alias, repellendus earum quisquam ut soluta! Dolore veritatis
-      impedit ad doloremque cumque ratione placeat laborum itaque,
-      distinctio facilis eum quo eaque."
+          desc="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
           img="https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
         />
         <Column title="Map" desc="You can find us on Google Maps. Feel free to visit anytime!" bg="#f44336" />
@@ -35,6 +32,7 @@ export class Home extends Component {
           containerElement={<div style={{ height: "500px" }} />}
           mapElement={<div style={{ height: "500px" }} />}
         />
+        <Column title="Follow Us" desc="Follow us on Instagram to see our latest dishes!" bg="#9c27b0" />
       </div>
     );
   }

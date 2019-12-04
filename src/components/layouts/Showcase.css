@@ -8,6 +8,7 @@
 }
 
 .showcaseItem {
+  font-weight: 100;
   justify-self: center;
   align-self: center;
   overflow: hidden;
@@ -17,21 +18,27 @@
 }
 
 .showcaseItem p {
+  line-height: 1.5;
   font-size: 1.5rem;
 }
 
 .showcaseItem h1 {
+  font-weight: 900;
   text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .showcaseItem p,
   .showcaseItem h1 {
     font-size: 1.3rem;
   }
+
+  .showcaseGrid {
+    height: auto;
+  }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
   .showcaseGrid {
     height: 50vh;
   }
