@@ -1,9 +1,10 @@
 .navUl {
   font-family: "Roboto";
+  z-index: 100;
   display: flex;
   justify-content: center;
   list-style-type: none;
-  background-color: #1976d2;
+  background-color: #304050;
   color: white;
   width: 100%;
   margin: 0;
@@ -11,13 +12,14 @@
 }
 
 .navUl li {
+  transition: .2s;
   padding: 10px 1rem;
   font-size: 0.9rem;
   cursor: pointer;
 }
 
 .navUl li:hover {
-  background-color: #11528e;
+  background-color: #203040;
 }
 
 .navUl a {

@@ -69,7 +69,7 @@ export class Menu extends Component {
 
     return (
       <div>
-        <Column title="Menu" desc="With our wide selection, you're sure to find something you like!" bg="#ec407a"/>
+        <Column title="Menu" desc="With our wide selection, you're sure to find something you like!" bg="#655089"/>
         <ul className="menuUl">
           {foods.map(food => (
             <li>
@@ -78,6 +78,7 @@ export class Menu extends Component {
             </li>
           ))}
         </ul>
+
       </div>
     );
   }

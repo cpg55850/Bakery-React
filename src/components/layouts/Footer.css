@@ -1,14 +1,13 @@
 footer {
-  line-height: 1.5;
   color: white;
 }
 
 .ft-main {
-  display: grid;
-  background-color: #42a5f5;
-  justify-items: space-around;
-  align-content: center;
-  grid-template-columns: 1fr repeat(auto-fit, minmax(350px, 1fr)); 1fr;
+  line-height: 1.5;
+  display: flex;
+  background-color: #345;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .ft-main ul {
@@ -32,10 +31,41 @@ footer {
   padding: 1rem 2rem;
 }
 
+.ft-a h3,
+.ft-b h3 {
+  text-align: center;
+}
+
+.ft-b a:hover {
+ cursor: pointer;
+ color: #ccc;
+}
+
 .ft-end {
-  background-color: #1e88e5;
+  background-color: #123;
   padding: 1px 20px;
   grid-column: 1 / -1;
+}
+
+.ft-social {
+  background-color: #1f3040;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ft-social a {
+  color: white;
+  text-decoration: none;
+ font-size: 2rem;
+ margin: 1rem;
+ padding: 0 1rem;
+}
+
+a:hover {
+ cursor: pointer;
+ color: #ccc;
 }
 
 @media screen and (max-width: 500px) {

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./Showcase.css";
 
 export class Showcase extends Component {
@@ -17,6 +18,8 @@ export class Showcase extends Component {
         <div className="showcaseItem">
           <h1>{title}</h1>
           <p>{desc}</p>
+          <Link to="./About"><button className="btn-default">Learn More</button></Link>
+          
         </div>
       </div>
     );

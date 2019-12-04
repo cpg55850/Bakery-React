@@ -25,7 +25,7 @@ export class Navbar extends Component {
     return (
       <nav className="navbar">
         <ul className="navUl">
-          <li class="menuBtn" onClick={this.toggleVisibility}>
+          <li className="menuBtn" onClick={this.toggleVisibility}>
             <a>{element}</a>
           </li>
           <div id="myLinks">
@@ -33,16 +33,13 @@ export class Navbar extends Component {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="../News">News</Link>
-          </li>
-          <li>
-            <Link to="../Contact">Contact</Link>
-          </li>
-          <li>
             <Link to="../About">About</Link>
           </li>
           <li>
             <Link to="../Menu">Menu</Link>
+          </li>
+          <li>
+            <Link to="../Contact">Contact</Link>
           </li>
         </div>
           <NavbarLinks active={visibility} />

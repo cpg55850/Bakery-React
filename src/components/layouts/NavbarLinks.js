@@ -11,21 +11,18 @@ export class NavbarLinks extends Component {
 
     return (
       <React.Fragment>
-        <div id="myLinks" style={myLinksStyle}>
+        <div id="myMobileLinks" style={myLinksStyle}>
           <li>
             <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="../News">News</Link>
-          </li>
-          <li>
-            <Link to="../Contact">Contact</Link>
           </li>
           <li>
             <Link to="../About">About</Link>
           </li>
           <li>
             <Link to="../Menu">Menu</Link>
+          </li>
+          <li>
+            <Link to="../Contact">Contact</Link>
           </li>
         </div>
       </React.Fragment>

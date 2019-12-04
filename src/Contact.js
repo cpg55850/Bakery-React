@@ -7,7 +7,7 @@ export class Contact extends Component {
   render() {
     return (
       <Fragment>
-      <Column title="Contact Us" desc="Let us know what you think of our resturant." bg="#009688" />
+      <Column title="Contact Us" desc="Let us know what you think of our restaurant." bg="#007476" />
       <div className="formGridContainer">
         <div className="formContainer">
         <form>
