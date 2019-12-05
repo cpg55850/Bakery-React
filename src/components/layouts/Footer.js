@@ -25,6 +25,9 @@ export class Footer extends Component {
                 <a href="https://www.instagram.com/carlosbakery/">Carlo's Bakery</a>
               </li>
               <li>
+                <a href="https://www.krispykreme.com/">Krispy Kreme</a>
+              </li>
+              <li>
                 <a href="https://reactjs.org/">React Framework</a>
               </li>
               <li>
