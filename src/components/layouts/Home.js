@@ -21,7 +21,7 @@ export class Home extends Component {
       <div>
         <Showcase
           title="Charlie's Bakery"
-          desc="A bakery with refinement and class."
+          desc="A bakery with refinement."
           img="https://images.pexels.com/photos/205961/pexels-photo-205961.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
         />
         <Column title="Map" desc="You can find us on Google Maps. Feel free to visit anytime!" bg="#335" />

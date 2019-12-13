@@ -5,25 +5,23 @@ import "./Navbar.css";
 
 export class NavbarLinks extends Component {
   render() {
-    const myLinksStyle = {
-      display: this.props.active ? "block" : "none"
-    }
-
     return (
       <React.Fragment>
-        <div id="myMobileLinks" style={myLinksStyle}>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="../About">About</Link>
-          </li>
-          <li>
-            <Link to="../Menu">Menu</Link>
-          </li>
-          <li>
-            <Link to="../Contact">Contact</Link>
-          </li>
+        <div id="myMobileLinks">
+          <ul className="navUl">
+            <li>
+              <Link to="/" onClick={this.props.handleClick}>Home</Link>
+            </li>
+            <li>
+              <Link to="../About" onClick={this.props.handleClick}>About</Link>
+            </li>
+            <li>
+              <Link to="../Menu" onClick={this.props.handleClick}>Menu</Link>
+            </li>
+            <li>
+              <Link to="../Contact" onClick={this.props.handleClick}>Contact</Link>
+            </li>
+          </ul>
         </div>
       </React.Fragment>
     );

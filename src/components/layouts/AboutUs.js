@@ -23,6 +23,11 @@ export class AboutUs extends Component {
           <h1>Dallas Baker</h1>
           <p>Co-founded the Institute of Quantam Physics and Mathematics for the excellent League of Gentlemen in 2017. In his spare time he likes to play CS:GO and bake flour-based goods.</p>
         </div>
+        <div className="aboutItem">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAdOSZTb7M9WjYfTYnE2jAQPjcBNKPQ5vDPogEihhZOsyc2UdUOw&s"/>
+          <h1>Elijah Fisher</h1>
+          <p>Formally a fisherman famous for his record time fishing records that were recorded. Despite his rivalry with Dallas Baker, he has managed to work together when it comes to baking sweets. Fisher was jailed from 1983-2006 for website editing crimes.</p>
+        </div>
       </div>
       </React.Fragment>
     );
